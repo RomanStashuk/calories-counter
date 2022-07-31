@@ -17,9 +17,5 @@ export default {
 
   webpack: {
     mode: isProd ? 'production' : 'development'
-  },
-
-  fonter: {
-    formats: ['ttf', 'woff', 'eot', 'svg']
   }
 };
