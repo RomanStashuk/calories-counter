@@ -4,12 +4,8 @@
   @media (max-width: $phone-width-only) { @content; }
 }
 
-@mixin for-tablet {
+@mixin for-tablet-up {
   @media (min-width: $tablet-width) { @content; }
-}
-
-@mixin for-desktop-up {
-  @media (min-width: $desktop-width) { @content; }
 }
 
 // Retina displays
