@@ -85,11 +85,12 @@ input[type="number"] {
 }
 
 .container {
-  max-width: $desktop-width;
+  width: 100%;
+  max-width: $tablet-width;
   margin: 0 auto;
   padding: 0 10px;
 
-  @include for-tablet {
+  @include for-tablet-up {
     padding: 0 20px;
   }
 }

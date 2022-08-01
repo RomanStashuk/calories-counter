@@ -1,0 +1,17 @@
+.radios-group {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  @include for-tablet-up {
+    max-width: 94%;
+  }
+}
+
+.radios-group .radio {
+  margin-bottom: 15px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
