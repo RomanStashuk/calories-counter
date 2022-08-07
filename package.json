@@ -1,18 +1,18 @@
 {
-  "name": "start-template-gulp",
+  "name": "calories-counter",
   "version": "1.0.0",
   "description": "Лічильник калорій на JS",
-  "main": "gulpfile.babel.js",
-  "author": "RomanStashuk",
+  "main": "js/main.js",
+  "author": "RomanStashuk <romanstashuk1@gmail.com> (https://github.com/RomanStashuk)",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RomanStashuk/start-template-gulp.git"
+    "url": "git+https://github.com/RomanStashuk/calories-counter.git"
   },
   "bugs": {
-    "url": "https://github.com/RomanStashuk/start-template-gulp/issues"
+    "url": "https://github.com/RomanStashuk/calories-counter/issues"
   },
-  "homepage": "https://github.com/RomanStashuk/start-template-gulp#readme",
+  "homepage": "https://github.com/RomanStashuk/calories-counter#readme",
   "scripts": {
     "start": "gulp",
     "build": "gulp --production",
