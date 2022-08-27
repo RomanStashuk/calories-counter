@@ -1,8 +1,20 @@
+@import '~normalize.css';
+
 @import 'base/fonts.scss';
 @import 'base/variables.scss';
 @import 'base/mixins.scss';
-@import 'base/normalize.scss';
 @import 'base/global.scss';
 
 // Blocks
-@import 'blocks/*.scss';
+@import 'blocks/button.scss';
+@import 'blocks/counter.scss';
+@import 'blocks/form.scss';
+@import 'blocks/heading-main.scss';
+@import 'blocks/heading.scss';
+@import 'blocks/input.scss';
+@import 'blocks/inputs-group.scss';
+@import 'blocks/main.scss';
+@import 'blocks/page.scss';
+@import 'blocks/radio.scss';
+@import 'blocks/radios-group.scss';
+@import 'blocks/switcher.scss';

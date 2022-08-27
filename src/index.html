@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="ua">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Лічильник калорій</title>
-  <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body class="page">
   <main class="main">
     <div class="container">
@@ -17,7 +18,8 @@
             <h2 class="heading">Стать</h2>
             <ul class="switcher">
               <li class="switcher__item">
-                <input class="visually-hidden" id="gender-male" name="gender" value="male" type="radio" checked required>
+                <input class="visually-hidden" id="gender-male" name="gender" value="male" type="radio" checked
+                  required>
                 <label for="gender-male">Чоловіча</label>
               </li>
               <li class="switcher__item">
@@ -35,7 +37,8 @@
                   <span class="input__heading-unit">років</span>
                 </div>
                 <div class="input__wrapper">
-                  <input type="text" id="age" name="age" placeholder="0" inputmode="decimal" maxlength="3" required>
+                  <input type="text" id="age" name="age" placeholder="0" inputmode="decimal" maxlength="3" min="1"
+                    required>
                 </div>
               </div>
               <div class="input">
@@ -44,7 +47,8 @@
                   <span class="input__heading-unit">см</span>
                 </div>
                 <div class="input__wrapper">
-                  <input type="text" id="height" name="height" placeholder="0" inputmode="decimal" maxlength="3" required>
+                  <input type="text" id="height" name="height" placeholder="0" inputmode="decimal" maxlength="3"
+                    required>
                 </div>
               </div>
               <div class="input">
@@ -53,7 +57,8 @@
                   <span class="input__heading-unit">кг</span>
                 </div>
                 <div class="input__wrapper">
-                  <input type="text" id="weight" name="weight" placeholder="0" inputmode="decimal" maxlength="3" required>
+                  <input type="text" id="weight" name="weight" placeholder="0" inputmode="decimal" maxlength="3"
+                    required>
                 </div>
               </div>
             </div>
@@ -63,7 +68,8 @@
             <ul class="radios-group">
               <li class="radio">
                 <div class="radio__wrapper">
-                  <input id="activity-minimal" class="visually-hidden" name="activity" value="min" type="radio" checked required>
+                  <input id="activity-minimal" class="visually-hidden" name="activity" value="min" type="radio" checked
+                    required>
                   <label for="activity-minimal">Мінімальна</label>
                 </div>
                 <p class="radio__description">Сидяча робота і&nbsp;відсутність фізичних навантажень</p>
@@ -77,7 +83,8 @@
               </li>
               <li class="radio">
                 <div class="radio__wrapper">
-                  <input id="activity-medium" class="visually-hidden" name="activity" value="medium" type="radio" required>
+                  <input id="activity-medium" class="visually-hidden" name="activity" value="medium" type="radio"
+                    required>
                   <label for="activity-medium">Середня</label>
                 </div>
                 <p class="radio__description">Тренування 3-5 разів на&nbsp;тиждень</p>
@@ -91,7 +98,8 @@
               </li>
               <li class="radio">
                 <div class="radio__wrapper">
-                  <input id="activity-maximal" class="visually-hidden" name="activity" value="max" type="radio" required>
+                  <input id="activity-maximal" class="visually-hidden" name="activity" value="max" type="radio"
+                    required>
                   <label for="activity-maximal">Дуже висока</label>
                 </div>
                 <p class="radio__description">Більше 6 тренувань на&nbsp;тиждень і&nbsp;фізична робота</p>
@@ -104,7 +112,7 @@
             </button>
             <button class="form__reset-button" name="reset" type="reset" disabled>
               <svg width="24" height="24">
-                <use xlink:href="img/icons/sprite.svg#reset"/>
+                <use xlink:href="assets/sprite.svg#reset" />
               </svg>
               <span>Очистити поля і&nbsp;розрахунки</span>
             </button>
@@ -136,6 +144,6 @@
       </article>
     </div>
   </main>
-  <script type="module" src="js/main.js"></script>
 </body>
+
 </html>
