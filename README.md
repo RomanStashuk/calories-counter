@@ -1,7 +1,7 @@
 # Calories counter
 
 Лічильник добової норми калорій
-[Демо проекту](https://romanstashuk.github.io/calories-counter/):link:
+## [Демо проекту](https://romanstashuk.github.io/calories-counter/):link:
 
 ---
 
