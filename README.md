@@ -1,6 +1,6 @@
 # Calories counter
 
-Лічильник добової норми калорій
+:chocolate_bar::bar_chart::pizza: Лічильник добової норми калорій
 ## [Демо проекту](https://romanstashuk.github.io/calories-counter/):link:
 
 ---
